@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="411b5d42-8722-49ed-8682-9eeb7e19dfba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SQL 2a. INSERT.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SQL 3. Searching.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/new.db" afterPath="$PROJECT_DIR$/new.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SQL 2. INSERT.py" afterPath="$PROJECT_DIR$/SQL 2. INSERT.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RealPython.iws" />
@@ -95,7 +91,7 @@
       <file leaf-file-name="SQL 3. Searching.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SQL 3. Searching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="70" selection-start="310" selection-end="310" vertical-scroll-proportion="0.26384366" vertical-offset="0" max-vertical-offset="614">
+            <state line="9" column="70" selection-start="310" selection-end="310" vertical-scroll-proportion="0.17419355" vertical-offset="0" max-vertical-offset="930">
               <folding>
                 <marker date="1398957824742" expanded="true" signature="138:179" placeholder="SELECT first..employees..." />
                 <marker date="1398957824742" expanded="true" signature="366:407" placeholder="SELECT first..employees..." />
@@ -494,19 +490,23 @@
       <created>1398955833094</created>
       <updated>1398955833094</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added SQL fetchall">
+      <created>1398957907555</created>
+      <updated>1398957907555</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-4" width="1862" height="1085" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25248072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -535,7 +535,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="added SQL CREATE and INSERT" />
-    <option name="LAST_COMMIT_MESSAGE" value="added SQL CREATE and INSERT" />
+    <MESSAGE value="added SQL fetchall" />
+    <option name="LAST_COMMIT_MESSAGE" value="added SQL fetchall" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -637,7 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SQL 3. Searching.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="70" selection-start="310" selection-end="310" vertical-scroll-proportion="0.26384366" vertical-offset="0" max-vertical-offset="614">
+        <state line="9" column="70" selection-start="310" selection-end="310" vertical-scroll-proportion="0.17419355" vertical-offset="0" max-vertical-offset="930">
           <folding>
             <marker date="1398957824742" expanded="true" signature="138:179" placeholder="SELECT first..employees..." />
             <marker date="1398957824742" expanded="true" signature="366:407" placeholder="SELECT first..employees..." />
