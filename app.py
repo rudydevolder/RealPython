@@ -5,6 +5,9 @@ from flask import Flask
 #create the application object:
 app = Flask(__name__)
 
+#Error handling:
+app.config["DEBUG"]= True
+
 #Use decorators to link to an URL:
 #Static routes:
 @app.route("/")
